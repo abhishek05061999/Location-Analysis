@@ -1,21 +1,29 @@
 # Location Analysis
 
-A Next.js application for analyzing and visualizing location data for real estate properties. The application helps users evaluate properties based on various metrics including local amenities, demographic trends, nearby schools, and more.
+A comprehensive Next.js application for analyzing real estate properties and their surroundings. This tool helps investors and real estate professionals make data-driven decisions by providing detailed insights about property locations, neighborhood amenities, market trends, and more.
 
 ## Features
 
-- **Property Details**: View detailed information about properties, including images, features, and descriptions
-- **Local Amenities**: Explore nearby dining, shopping, groceries, and entertainment options
-- **Neighborhood Information**: Access demographic data, walkability scores, and transit options
-- **Market Trends**: Analyze supply pipeline, land comparables, and market insights
-- **School Information**: Review nearby schools with ratings and educational metrics
+- **Property Details**: Comprehensive property information including specifications, images, and descriptions
+- **Local Amenities**: Interactive map showing nearby dining, shopping, groceries, and entertainment options
+- **Neighborhood Analysis**: Demographic data, walkability scores, transit options, and local insights
+- **Market Intelligence**: 
+  - Supply pipeline visualization
+  - Land comparables with price analysis
+  - Market trends and forecasts
+- **Education**: Detailed information about nearby schools with ratings and performance metrics
+- **Interactive Visualization**: Charts and graphs for better data comprehension
+- **Responsive Design**: Optimized for both desktop and mobile viewing
 
-## Tech Stack
+## Technology Stack
 
-- **Frontend**: React, Next.js 14, TypeScript
-- **Styling**: Tailwind CSS
-- **Data Visualization**: Chart.js
-- **Images**: Next.js Image Optimization
+- **Frontend Framework**: React with Next.js 14
+- **Language**: TypeScript for type safety and better developer experience
+- **Styling**: Tailwind CSS for responsive and utility-first styling
+- **Data Visualization**: Chart.js with react-chartjs-2
+- **Images**: Next.js Image component with optimization
+- **State Management**: React Context API and Hooks
+- **Development Tools**: ESLint, Prettier
 
 ## Getting Started
 
@@ -46,17 +54,22 @@ A Next.js application for analyzing and visualizing location data for real estat
 
 4. Run the development server:
    ```bash
-   npm run dev
+   npm run dev -- -p 3005
    # or
-   yarn dev
+   yarn dev -p 3005
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+5. Open [http://localhost:3005](http://localhost:3005) in your browser to see the application.
 
-## Deployment
+## Project Structure
 
-The project is ready to be deployed on Vercel. Simply connect your GitHub repository to Vercel and deploy.
+```
+src/
+├── app/              # Next.js app directory
+├── components/       # React components
+│   ├── location/     # Location-specific components
+│   └── ui/           # Reusable UI components
+├── styles/           # Global styles
+└── types/            # TypeScript type definitions
+```
 
-## License
-
-This project is licensed under the MIT License. 
