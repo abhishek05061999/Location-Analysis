@@ -2,6 +2,10 @@
 
 A comprehensive Next.js application for analyzing real estate properties and their surroundings. This tool helps investors and real estate professionals make data-driven decisions by providing detailed insights about property locations, neighborhood amenities, market trends, and more.
 
+## Demo
+
+View the live demo: [Location Analysis App](https://location-analysis-lemon.vercel.app/)
+
 ## Features
 
 - **Property Details**: Comprehensive property information including specifications, images, and descriptions
